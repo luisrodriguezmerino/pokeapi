@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar";
 import SearchBar from "./components/SearchBar";
 import FavoritePages from "./pages/Favorites";
 import PokemonCapturados from "./pages/PokemonCapturados";
+import About from "./pages/about";
 import Layout from "./layout/Layout";
 
 function App() {
@@ -29,6 +30,10 @@ function App() {
       </Route>
       <Route path="pokemons-capturados" element={<Layout />}>
         <Route index element={<PokemonCapturados />} />
+        <Route element={<NavBar />} />
+      </Route>
+      <Route path="about" element={<Layout />}>
+        <Route index element={<About />} />
         <Route element={<NavBar />} />
       </Route>
     </Routes>

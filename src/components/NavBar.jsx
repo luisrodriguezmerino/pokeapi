@@ -7,9 +7,10 @@ function NavBar(){
           </a>
           <div className="border-y-4 border-slate-900 p-2">
             <ul className="flex flex-row gap-4 justify-center  ">
-                <li className="border-l-2 px-2 border-x-slate-300"><a href="/">Home</a></li>
-                <li className="border-l-2 px-2 border-x-slate-300"><a href="/favoritos">Favoritos</a></li>
+                <li className="border-x-2 px-2 border-x-slate-300"><a href="/">Home</a></li>
+                <li className="border-x-2 px-2 border-x-slate-300"><a href="/favoritos">Favoritos</a></li>
                 <li className="border-x-2 px-2 border-x-slate-300"><a href="pokemons-capturados">Pokemons capturados</a></li>
+                <li className="border-x-2 px-2 border-x-slate-300"><a href="about">About</a></li>
             </ul>
           </div>
         </nav>
